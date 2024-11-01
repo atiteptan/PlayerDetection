@@ -1,3 +1,6 @@
 [submodule "tph-yolov5"]
 	path = tph-yolov5
 	url = https://github.com/cv516Buaa/tph-yolov5
+[submodule "SoccerTrack Dataset"]
+	path = SoccerTrack Dataset
+	url = https://github.com/AtomScott/SportsLabKit
