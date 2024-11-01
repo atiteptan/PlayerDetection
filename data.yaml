@@ -1,0 +1,7 @@
+names:
+- '0'
+- '1'
+nc: 2
+train: /content/autosplit_train.txt
+val: /content/autosplit_val.txt
+test: /content/autosplit_test.txt
