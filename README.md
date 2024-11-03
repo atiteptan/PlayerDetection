@@ -1,4 +1,5 @@
-This is the repository for the trained model in the paper: Players and Teams Detection in a Soccer Video Using Deep Learning-based Models.
+# Introduction
+This is the repository for the trained model in the paper: **Players and Teams Detection in a Soccer Video Using Deep Learning-based Models**.
 
 The 3 trained models can be found in the "Model" folder. Using Yolov5-tph apply the weights listed in the folder on the SoccerTrack dataset.
 
@@ -20,8 +21,9 @@ python train.py --img 1536 --adam --batch 4 --epochs 34 --data /content/data.yam
 ``` bash
 python detect.py --weights Yolov5m-xs-tph.pt --img 1536 --conf 0.6 --iou-thres 0.7 --source F_20220220_1_1140_1170_Team1Corner.mp4 --save-txt --save-conf
 ```
-# Drawing Heatmap
+# Code Snippets
 The following is some sample code snippets you can use to draw the heatmap using the label files from the YOLO models.
+
 ## Draw the pitch
 Using the python module [mplsoccer](https://github.com/andrewRowlinson/mplsoccer/tree/main) you can easily draw and define the shape of af football pitch.
 ``` python
